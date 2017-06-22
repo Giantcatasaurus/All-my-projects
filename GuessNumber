@@ -1,0 +1,20 @@
+import random
+my_number = random.randrange(100)
+Start1= input("a) Guess a number between 0 to 99\nb) Quit the game\n")
+if Start1 == "a":
+    print("Starting game...")
+    attempt1 = input("Guess the number, It's between 0 to 99\n")
+    if int(attempt1) == (my_number) :
+        print("Correct!")
+    else:
+      print("Wrong")
+      attempt2 = input("Second try!\n")
+      if int(attempt2) == (my_number) :
+             print("Correct!")
+      else:
+            print("Terminating game...")
+            print(my_number)
+if Start1 == "b":
+    print("Quitting Game..")
+if Start1 == "cheat":
+        print(my_number)

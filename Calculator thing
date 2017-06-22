@@ -1,0 +1,14 @@
+print ("This program calculates mpg.")
+# get miles from user
+miles_driven = input ("Enter miles driven:")
+# Convert text to floating point number
+miles_driven= float(miles_driven)
+# Get gallons from user
+gallons_used = input ("Enter gallons used:")
+# Convert text floating point number
+gallons_used = float(gallons_used)
+mpg = miles_driven / gallons_used
+print("Miles per gallon:", mpg)
+# Hi! If you are looking at this
+# Then i have a secret message
+# print(".- / ... . -.-. .-. . - / -- . ... ... .- --. .")
